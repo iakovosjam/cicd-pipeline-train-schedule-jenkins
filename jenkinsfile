@@ -1,0 +1,9 @@
+pipeline {
+
+  stage("build") {
+  
+    sh './gradlew build --no-daemon'
+  
+  }
+
+}
